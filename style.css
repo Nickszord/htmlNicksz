@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --cor-primaria: #5eb3c3;
+    --cor-secundaria: #444644;
+    --cor-fundo: #e6e7e8;
+  }
+
+  .cabecalho {
+    background-color: var(--cor-secundaria);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
