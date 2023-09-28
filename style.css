@@ -5,12 +5,154 @@
     --cor-primaria: #5eb3c3;
     --cor-secundaria: #444644;
     --cor-fundo: #e6e7e8;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .cabecalho{
+    background-color: var(--cor-primaria);
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
-  .cabecalho {
-    background-color: var(--cor-secundaria);
-    padding: 10px 50px;
+  .cabecalho figure img{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 0px 0px;
+    position: absolute;
+    left: 320px;
+    top: 20%
+
+    
+  }
+  
+
+  
+  .cabecalho-menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+  }
+  
+  .cabecalho-menu a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  .principal{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-primaria);
+  }
+  
+  .principal-logo{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+  }
+  
+  .principal-logo img{
+    width: 100%;
+    height: 300px;
+  }
+  
+  .principal-texto{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    padding-left: 30px;
+  }
+  
+  .container-texto{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .container-texto h2{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  
+  .container-texto p{
+    font-size: 14px;
+  }
+  
+  .secao-create{
+    width: 100%;
+    height: 170px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: var(--cor-secundaria);
+    color: #FFFFFF;
+    flex-direction: column;
+  }
+  
+  .secao-create h2{
+    font-size: 40px;
+    word-spacing: 5px;
+  }
+  
+  .secao-create p{
+    font-size: 24px;
+    word-spacing: 3px;
+  }
+  
+  .secao-cards{
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
+  
+  .container-cards{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    gap: 5px
+  }
+  
+  .card figure{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card h3{
+    font-size: 24px;
+  }
+  
+  .card p{
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .h3-class{
+    color: var(--cor-primaria);
+  }
+  
+  
+  
